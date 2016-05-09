@@ -1,0 +1,1635 @@
+[
+  {
+    "date": "April 1, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 1,
+    "hour": 3,
+    "type": [
+      "Cocktail"
+    ],
+    "name": [
+      "Margarita"
+    ],
+    "amount": [
+      "6 glasses"
+    ],
+    "spent": 50,
+    "where": [
+      "El Cantinero"
+    ],
+    "drunkenness": "4",
+    "who": [
+      "20+"
+    ],
+    "occasion": "TNO",
+     "location": {
+      "add": "El cantinero",
+      "geo": [
+        40.733907,
+        -73.993255
+      ]
+    }
+  },
+  {
+    "date": "April 2, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 2,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 3, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 3,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Coors Light"
+    ],
+    "amount": [
+      "2 Cans"
+    ],
+    "spent": 3,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "Alone"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "April 4, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 4,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Coors Light"
+    ],
+    "amount": [
+      "2 Cans"
+    ],
+    "spent": 3,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "Alone"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "April 5, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 5,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 6, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 6,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 7, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 7,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 8, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 8,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 9, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 9,
+    "hour": 4,
+    "type": ["Beer"],
+    "name": ["Coor Light","Brooklyn Lager"],
+    "amount": ["1 can","2 bottles"],
+    "spent": 3,
+    "where": ["Home"],
+    "drunkenness": "2",
+    "who": ["5"],
+    "occasion": "Steve Jobs Movie Night",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "April 10, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 10,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 11, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 11,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 12, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 12,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "April 13, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 13,
+    "hour": 2,
+    "type": ["Beer"],
+    "name": ["Sapporo","Bud Light"],
+    "amount": ["1 can","2 cans"],
+    "spent": 9,
+    "where": ["Home"],
+    "drunkenness": "2",
+    "who": ["2"],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "April 14, 2016",
+    "year": 2016,
+    "month": 4,
+    "day": 14,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 1, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 1,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 2, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 2,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Speakeasy"
+    ],
+    "amount": [
+      "1 pint"
+    ],
+    "spent": 8,
+    "where": [
+      "THE CELLAR"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "2"
+    ],
+    "occasion": "Lunch",
+    "location": {
+      "add": "THE CELLAR",
+      "geo": [
+        40.739079,
+        -73.989566
+      ]
+    }
+  },
+  {
+    "date": "March 3, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 3,
+    "hour": 2,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Lagunitas IPA"
+    ],
+    "amount": [
+      "2 pints"
+    ],
+    "spent": 16,
+    "where": [
+      "Botanica Bar"
+    ],
+    "drunkenness": "3",
+    "who": [
+      "20+"
+    ],
+    "occasion": "TNO",
+    "location": {
+      "add": "Botanica Bar",
+      "geo": [
+        40.72489,
+        -73.994741
+      ]
+    }
+  },
+  {
+    "date": "March 4, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 4,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 5, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 5,
+    "hour": 2,
+    "type": [
+      "Sake bomb"
+    ],
+    "name": [
+      "Soju+beer bomb"
+    ],
+    "amount": [
+      "15 cups"
+    ],
+    "spent": 60,
+    "where": [
+      "K'ook"
+    ],
+    "drunkenness": "4",
+    "who": [
+      "12"
+    ],
+    "occasion": "KITP",
+    "location": {
+      "add": "K'ook",
+      "geo": [
+        40.726933,
+        -73.987433
+      ]
+    }
+  },
+  {
+    "date": "March 6, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 6,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 7, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 7,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 8, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 8,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "1 can"
+    ],
+    "spent": 1.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 9, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 9,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 10, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 10,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 11, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 11,
+    "hour": 2,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "3 cans"
+    ],
+    "spent": 4.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 12, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 12,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 13, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 13,
+    "hour": 2,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "3 cans"
+    ],
+    "spent": 4.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 14, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 14,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "1 can"
+    ],
+    "spent": 1.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 15, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 15,
+    "hour": 2,
+    "type": [
+      "Cocktail"
+    ],
+    "name": [
+      "Margarita"
+    ],
+    "amount": [
+      "2 glasses"
+    ],
+    "spent": 28,
+    "where": [
+      "12th st. Ale House"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "2"
+    ],
+    "occasion": "ATS Night",
+    "location": {
+      "add": "12th st. Ale House",
+      "geo": [
+        40.731244,
+        -73.985512
+      ]
+    }
+  },
+  {
+    "date": "March 16, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 16,
+    "hour": 2,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "3 cans"
+    ],
+    "spent": 4.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 17, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 17,
+    "hour": 4,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Brooklyn Lager"
+    ],
+    "amount": [
+      "3 pints"
+    ],
+    "spent": 20,
+    "where": [
+      "Subject Bar"
+    ],
+    "drunkenness": "3",
+    "who": [
+      "1"
+    ],
+    "occasion": "TNO",
+    "location": {
+      "add": "Subject Bar",
+      "geo": [
+        40.72164,
+        -73.984704
+      ]
+    }
+  },
+  {
+    "date": "March 18, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 18,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 19, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 19,
+    "hour": 4,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Coors Light"
+    ],
+    "amount": [
+      "6 cans"
+    ],
+    "spent": 9,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "3"
+    ],
+    "occasion": "Blue Ribbon Fried Chicken Night - with Y/C",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 20, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 20,
+    "hour": 2,
+    "type": [
+      "Sake"
+    ],
+    "name": [
+      "Sulhwasu"
+    ],
+    "amount": [
+      "0.5 bottle"
+    ],
+    "spent": 7,
+    "where": [
+      "Jongro bbq"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "2"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Jongro BBQ",
+      "geo": [
+        40.747713,
+        -73.98695
+      ]
+    }
+  },
+  {
+    "date": "March 21, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 21,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 22, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 22,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 23, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 23,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "March 24, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 24,
+    "hour": 3,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Pitcher",
+      "Pabst Blue Ribbon"
+    ],
+    "amount": [
+      "2 pints",
+      "2 cans"
+    ],
+    "spent": 3,
+    "where": [
+      "BLUE AND GOLD TAVERN",
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "10+",
+      "2"
+    ],
+    "occasion": "TNO",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 25, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 25,
+    "hour": 8,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Samuel Adams",
+      "Peroni"
+    ],
+    "amount": [
+      "3 bottles",
+      "3 pints"
+    ],
+    "spent": 16,
+    "where": [
+      "NYU Kimmel Center",
+      "B bar & grill"
+    ],
+    "drunkenness": "4",
+    "who": [
+      "100+",
+      "9"
+    ],
+    "occasion": "NYC Media lab After party / Matt's Parents",
+    "location": {
+      "add": "B bar & grill",
+      "geo": [
+        40.727312,
+        -73.991932
+      ]
+    }
+  },
+  {
+    "date": "March 26, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 26,
+    "hour": 3,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Bud Light"
+    ],
+    "amount": [
+      "5 cans"
+    ],
+    "spent": 12,
+    "where": [
+      "Msgr. McGolrick Park"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "10+"
+    ],
+    "occasion": "Daya's Birthday Party",
+    "location": {
+      "add": "Msgr. McGolrick Park",
+      "geo": [
+        40.724496,
+        -73.943347
+      ]
+    }
+  },
+  {
+    "date": "March 27, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 27,
+    "hour": 4,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Ommegang witte",
+      "Sam adams rebel",
+      "Dale's pale ale",
+      "Southern tier"
+    ],
+    "amount": [
+      "1 bottle",
+      "1 bottle",
+      "1 bottle",
+      "2 bottles"
+    ],
+    "spent": 52,
+    "where": [
+      "W 3rd Common"
+    ],
+    "drunkenness": "3",
+    "who": [
+      "5"
+    ],
+    "occasion": "Blood moon - with M/S/J/C",
+    "location": {
+      "add": "W 3rd Common",
+      "geo": [
+        40.728186,
+        -73.995058
+      ]
+    }
+  },
+  {
+    "date": "March 28, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 28,
+    "hour": 1.5,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Heineken Light"
+    ],
+    "amount": [
+      "1 bottle"
+    ],
+    "spent": 0,
+    "where": [
+      "11 E. 32nd st."
+    ],
+    "drunkenness": "1",
+    "who": [
+      "2"
+    ],
+    "occasion": "Namu",
+    "location": {
+      "add": "Namu's",
+      "geo": [
+        40.747035,
+        -73.984511
+      ]
+    }
+  },
+  {
+    "date": "March 29, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 29,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Coors Light"
+    ],
+    "amount": [
+      "1 can"
+    ],
+    "spent": 1.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "1"
+    ],
+    "occasion": "",
+    "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "March 30, 2016",
+    "year": 2016,
+    "month": 3,
+    "day": 30,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 1, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 1,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 2, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 2,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 3, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 3,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 4, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 4,
+    "hour": 2,
+    "type": [
+      "Tequila"
+    ],
+    "name": [
+      "Los generales"
+    ],
+    "amount": [
+      "3 glasses"
+    ],
+    "spent": 18,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "2"
+    ],
+    "occasion": "",
+            "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "February 5, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 5,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 6, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 6,
+    "hour": 1,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Kirin Ichiban"
+    ],
+    "amount": [
+      "1 pint"
+    ],
+    "spent": 3,
+    "where": [
+      "Hide Chan Ramen"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "8"
+    ],
+    "occasion": "ITP Ramen Club",
+            "location": {
+      "add": "ITP Ramen Club",
+      "geo": [
+        40.756386,
+        -73.968204
+      ]
+    }
+  },
+  {
+    "date": "February 7, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 7,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 8, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 8,
+    "hour": 6,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Brooklyn Lager"
+    ],
+    "amount": [
+      "2 pints"
+    ],
+    "spent": 19,
+    "where": [
+      "Output"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "4"
+    ],
+    "occasion": "JAMIE XX",
+    "location": {
+      "add": "Output",
+      "geo": [
+        40.722429,
+        -73.957765
+      ]
+    }
+  },
+  {
+    "date": "February 9, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 9,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 10, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 10,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 11, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 11,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 12, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 12,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 13, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 13,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 14, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 14,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 15, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 15,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 16, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 16,
+    "hour": 4,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Brooklyn Wheat"
+    ],
+    "amount": [
+      "5 Bottles"
+    ],
+    "spent": 25,
+    "where": [
+      "Pioneer Works"
+    ],
+    "drunkenness": "3",
+    "who": [
+      "2"
+    ],
+    "occasion": "Pioneer Works Party",
+    "location": {
+      "add": "Pioneer Works",
+      "geo": [
+        40.679337,
+        -74.012281
+      ]
+    }
+  },
+  {
+    "date": "February 17, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 17,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 18, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 18,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 19, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 19,
+    "hour": 2,
+    "type": ["Beer"],
+    "name": ["Samuel Adams"],
+    "amount": ["2 Bottles"],
+    "spent": 9,
+    "where": ["Home"],
+    "drunkenness": "2",
+    "who": [2],
+    "occasion": "",
+            "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "February 20, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 20,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 21, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 21,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 22, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 22,
+    "hour": 3,
+    "type": ["Beer"],
+    "name": ["Brooklyn Lager"],
+    "amount": ["4 pints"],
+    "spent": 24,
+    "where": ["7th Bar"],
+    "drunkenness": "2",
+    "who": [4],
+    "occasion": "",
+     "location": {
+      "add": "7th Bar",
+      "geo": [
+        40.727213,
+        -73.985823
+      ]
+    }
+  },
+  {
+    "date": "February 23, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 23,
+    "hour": 2,
+    "type": [
+      "Beer"
+    ],
+    "name": [
+      "Brooklyn Wheat"
+    ],
+    "amount": [
+      "1 bottle"
+    ],
+    "spent": 4.5,
+    "where": [
+      "Home"
+    ],
+    "drunkenness": "1",
+    "who": [
+      "Alone"
+    ],
+    "occasion": "",
+            "location": {
+      "add": "Home",
+      "geo": [
+        40.727266,
+        -73.988119
+      ]
+    }
+  },
+  {
+    "date": "February 24, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 24,
+    "hour": 2,
+    "type": [
+      "Wine"
+    ],
+    "name": [
+      "HAHN"
+    ],
+    "amount": [
+      "1 bottle"
+    ],
+    "spent": 15,
+    "where": [
+      "New Jersey"
+    ],
+    "drunkenness": "2",
+    "who": [
+      "2"
+    ],
+    "occasion": "New Jersey Trip",
+     "location": {
+      "add": "New Jersey",
+      "geo": [
+        40.862677,
+        -74.176001
+      ]
+    }
+  },
+  {
+    "date": "February 25, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 25,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 26, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 26,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 27, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 27,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 28, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 28,
+    "hour": 4,
+    "type": ["Bourbon"],
+    "name": ["Four Flowers"],
+    "amount": ["4 glasses"],
+    "spent": 20,
+    "where": ["Namu's Home"],
+    "drunkenness": "3",
+    "who": [4],
+    "occasion": "",
+     "location": {
+      "add": "New Jersey",
+      "geo": [
+        40.725089,
+        -73.983138
+      ]
+    }
+  },
+  {
+    "date": "February 29, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 29,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 30, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 30,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  },
+  {
+    "date": "February 31, 2016",
+    "year": 2016,
+    "month": 2,
+    "day": 31,
+    "hour": 0,
+    "type": [],
+    "name": [],
+    "amount": [],
+    "spent": 0,
+    "where": [],
+    "drunkenness": "0",
+    "who": [],
+    "occasion": ""
+  }
+]

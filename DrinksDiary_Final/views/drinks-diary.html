@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Drinks Diary</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agencyy.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- SONGEE ADD -->
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/Chart.js"></script>
+        <script src="js/mainViz.js"></script>
+        <script src="js/main.js"></script> 
+        <script src="http://d3js.org/d3.v3.js"></script>
+        <!--     map -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAcN6VtdpM55-CGGyEAWX2qEWs_Qwg4wXM"></script> -->
+
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAKELU_VYh0K-SPFxcsy_n2r5MqZ9QNLEU&callback=initMap"></script>  
+
+        <!-- SONGEE ADD -->
+
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Soni Hahn</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Overview</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio">Diary</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">Stats</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#team">Check-ins</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Share</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">To Alcohol! The Cause Of - And Solution To - All Of Life's Problems</div>
+                    <div class="intro-heading">My Drinks Diary</div>
+                    <br>
+                    <br>
+                    <a href="#services" class="page-scroll btn btn-xl">Go Overview</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Overview</h2>
+                        <h3 class="section-subheading text-muted">Alert! You spent too much money over the last 10 weeks.</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="row" id="stats-holder ">
+                        <div class="card col-md-2 col-md-offset-1 centered">   
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
+                            </span>            
+                            <div class="t1-2-title">Total dollars spent</div>
+                            <div class="t1-2-body" id="total_dollars_spent">$0</div>                
+                        </div>
+                        <div class="card col-md-2 centered">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <div class="t1-2-title">Total time spent</div>
+                            <div class="t1-2-body" id="total_time_spent">0h</div>   
+                        </div> 
+                        <div class="card col-md-2 centered">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa fa-usd fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <div class="t1-1-title">Avg. dollars spent /day</div>
+                            <div class="t1-1-body" id="avg_dollars_spent">$0</div>  
+                        </div> 
+                        <div class="card col-md-2 centered">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <div class="t1-1-title">Avg. time spent /day</div>
+                            <div class="t1-1-body" id="avg_time_spent">0h</div> 
+                        </div> 
+                        <div class="card col-md-2 centered">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-beer fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <div class="t1-3-title">My favorite drink</div>
+                            <div class="t1-3-body" id="most_popular">No Data</div>  
+                        </div>  
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Stats</h2>
+                        <h3 class="section-subheading text-muted">Select a day to see its data.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                 <div class="col-md-12 centered" id="drunkenness">
+
+
+                    <div id="doughnutChartLegend" class="legend"></div>
+
+                    <!--                <h2 style='color:black'>drunkenness</h2>     --> 
+
+                    <div class="col-md-4 centered">
+                        <img src="img/new_level2.png" class="img-responsive1" >
+                    </div>
+                    <div class="col-md-8 centered">
+                       <canvas id="doughnutChart"></canvas>
+                   </div>
+
+                   <br>
+
+               </div>  
+               <div class="col-md-12 centered" id="monthly-info">
+                <!--                <h2 style='color:black'>monthly-info</h2> -->
+                <div class="row">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="chart"></div>
+                </div>
+                
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12 centered">
+                        <div class="t2-body" id="date">Date</div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Time spent</div>
+                        <div class="t3-body" id="time_spent">0h</div>
+                    </div>
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Drinks</div>
+                        <div class="t3-body" id="drinks_info">-</div>
+                    </div>
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Amount</div>
+                        <div class="t3-body" id="d_amount">-</div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Dollars spent</div>
+                        <div class="t3-body" id="dollars_spent">$0</div>
+                    </div>
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Location</div>
+                        <div class="t3-body" id="d_where">-</div>
+                    </div>
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">People</div>
+                        <div class="t3-body" id="d_people">-</div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-4 centered">
+                        <div class="t3-title">Occasion</div>
+                    </div>
+                    <div class="col-md-8 centered">
+                        <div class="t4-body" id="occasion">-</div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- Team Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Check-ins</h2>
+                <h3 class="section-subheading text-muted">See the places I've visited.</h3>
+            </div>
+        </div>
+        <!--     map -->
+        <div class="row">
+            <br>
+            <div id="map-canvas"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="large text-muted">///</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="copyright">Copyright &copy; Soni Hahn 2016</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+
+</body>
+
+</html>

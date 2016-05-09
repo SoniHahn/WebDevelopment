@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>drinks diary</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/Chart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script>
+<!--     map -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAcN6VtdpM55-CGGyEAWX2qEWs_Qwg4wXM"></script> -->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD22llCAj0GeK686YX1abQ1Un2wqMv1HMo"></script>
+    
+  </head>
+<body>
+
+<div class="container">
+	<div class="row" id="header"> 
+		<img src="img/Beer-Background1.jpg" class="img-responsive">
+    	<div class="title text-center">
+			<h1>My Drinks Diary</h1>
+			<h4>To Alcohol! The Cause Of - And Solution To - All Of Life's Problems</h4>
+		</div>
+	</div>	
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="row" id="content">
+			<div class="row" id="stats-holder ">
+				<div class="card col-md-2 col-md-offset-1 centered">				
+					<div class="t1-2-title">Total dollars spent</div>
+					<div class="t1-2-body" id="total_dollars_spent">$0</div>				
+				</div>
+				<div class="card col-md-2 centered">
+					<div class="t1-2-title">Total time spent</div>
+					<div class="t1-2-body" id="total_time_spent">0h</div>	
+				</div> 
+				<div class="card col-md-2 centered">
+					<div class="t1-1-title">Avg. dollars spent /day</div>
+					<div class="t1-1-body" id="avg_dollars_spent">$0</div>	
+				</div> 
+				<div class="card col-md-2 centered">
+					<div class="t1-1-title">Avg. time spent /day</div>
+					<div class="t1-1-body" id="avg_time_spent">0h</div>	
+				</div> 
+				<div class="card col-md-2 centered">
+					<div class="t1-3-title">My favorite drink</div>
+					<div class="t1-3-body" id="most_popular">No Data</div>	
+				</div>  
+		  	</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+
+		<div class="row">
+			<div class="col-md-8 centered" id="monthly-info">
+<!-- 				<h2 style='color:black'>monthly-info</h2> -->
+				<div class="row">
+					<br>
+					<br>
+					<br>
+					<br>
+					<div id="chart"></div>
+				</div>
+				
+				<br>
+
+				<div class="row">
+					<div class="col-md-12 centered">
+						<div class="t2-body" id="date">Date</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 centered">
+						<div class="t3-title">Time spent</div>
+						<div class="t3-body" id="time_spent">0h</div>
+					</div>
+					<div class="col-md-4 centered">
+						<div class="t3-title">Drinks</div>
+						<div class="t3-body" id="drinks_info">-</div>
+					</div>
+					<div class="col-md-4 centered">
+						<div class="t3-title">Amount</div>
+						<div class="t3-body" id="d_amount">-</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4 centered">
+						<div class="t3-title">Dollars spent</div>
+						<div class="t3-body" id="dollars_spent">$0</div>
+					</div>
+					<div class="col-md-4 centered">
+						<div class="t3-title">Location</div>
+						<div class="t3-body" id="d_where">-</div>
+					</div>
+					<div class="col-md-4 centered">
+						<div class="t3-title">People</div>
+						<div class="t3-body" id="d_people">-</div>
+					</div>
+				</div>
+
+				<br>
+
+				<div class="row">
+					<div class="col-md-4 centered">
+						<div class="t3-title">Occasion</div>
+					</div>
+					<div class="col-md-8 centered">
+						<div class="t4-body" id="occasion">-</div>
+					</div>
+				</div>
+			</div>
+				 
+			<div class="col-md-4 centered" id="drunkenness">
+
+<!-- 				<h2 style='color:black'>drunkenness</h2>	 -->			
+		    	<div id="doughnutChartLegend" class="legend"></div>
+		    	<br>
+				<br>
+				<br>
+				<br>
+		    	<img src="img/new_level1.png" class="img-responsive1" >
+		    	<br>
+				<br>
+        		<canvas id="doughnutChart"></canvas>
+
+		    </div>		    		       
+	    </div>
+
+		    	<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+
+
+
+<!--     map -->
+		<div class="row">
+			<br>
+			<br>
+			<br>
+			<br>
+
+	    	<div class="map" id="map-canvas"></div>
+<!-- 	  			<div id="map-legend"> -->
+<!-- 	    		<h2>Location</h2> -->
+<!-- 	  			</div>	 -->
+	    </div>
+
+	    <div class="row">
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+</div>
+
+</body>    
+</html>

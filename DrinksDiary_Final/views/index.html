@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Hello World</title>
+
+  <!-- Custom Font - Change 'Muli' to the font you want -->
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
+
+  <!-- Custom CSS inside CSS folder -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/agency.css">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top"></a>
+        </div> 
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#date">Date</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#where">Where</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#drinktype">Type</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#drinksinfo">Drink Info</a>
+            </li>
+            <li> 
+              <a class="page-scroll" href="#spent">Spent</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#occasion">Occasion</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="col-xs-12 text-center intro-text">
+
+          <div class="intro-lead-in">Track Your Drinks</div>
+          <br>
+          <br>
+          <br>
+          <!--   <div class="intro-heading"></div> -->
+          <a href="#date" class="page-scroll btn btn-xl btn-block">Drinking Now?</a>
+          <a href="#date" class="page-scroll btn btn-xl btn-block">Had it already?</a>
+        </div>
+      </div>
+    </header>
+
+    <form method="post" action="/api/create" id="myForm">
+      <!-- Date Section -->
+      <section id="date" class="bg-light-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center intro-text">
+              <div class="form-group" id='dateRangeForm'>
+                <div class="input-group input-append date" id="dateRangePicker">
+                  <input type="text" class="form-control" name="date" id="drinkDate" />
+                  <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class='col-xs-12'>
+              <a href="#where" class="page-scroll btn btn-xl btn-block">Next</a>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!-- Where Section -->
+      <section id="where" class="bg-dark-gray">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <div class='input-group where' id='location'>
+                  <input type="text" class="form-control" id="drinkLocation" placeholder="Location" name="location" required>
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class='col-xs-12'>
+              <a href="#drinktype" class="page-scroll btn btn-xl btn-block">Next</a>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+
+      <!-- drinktype Section -->
+      <section id="drinktype" class="bg-light-gray">
+        <div class="container">
+          <div class="row">
+            <div class='col-xs-12'>
+              <div class="btn-group-vertical btn-block" data-role="view" >
+                <button type="button" class="drinkType btn btn-primary" value="Beer">Beer</button>
+                <button type="button" class="drinkType btn btn-primary" value="Wine">Wine</button>
+                <button type="button" class="drinkType btn btn-primary" value="Whiskey">Whiskey</button>
+                <button type="button" class="drinkType btn btn-primary" value="Tequila">Tequila</button>
+                <button type="button" class="drinkType btn btn-primary" value="Cocktail">Cocktail</button>
+                <button type="button" class="drinkType btn btn-primary" value="Other">Other</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class='col-xs-12'>
+              <a href="#brandname" class="page-scroll btn btn-xl btn-block">Next</a>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+
+
+      <!-- drinks info Section -->
+      <section id="drinksinfo" class="bg-dark-gray">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="form-group">
+                <!--             <label for="brandname">Brand Name</label> -->
+                <input type="text" class="form-control" id="brandname" placeholder="name" name="brandname" required>
+              </div>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="form-group col-xs-6">
+                <select class="form-control" id="amount" placeholder="Amount" required>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div> 
+
+              <div class="form-group col-xs-6">
+                <select class="form-control" id="unit" placeholder="Unit" required>
+                  <option>bottle</option>
+                  <option>can</option>
+                  <option>pint</option>
+                </select>
+              </div> 
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class='col-xs-12'>
+              <a href="#spent" class="page-scroll btn btn-xl btn-block">Next</a>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- Spent Section -->
+      <section id="spent" class="bg-light-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="form-group">
+                <label for="dollarspent">Dollars Spent</label>
+                <input type="text" class="form-control" id="dollarspent" placeholder="Dollars Spent" name="dollarspent" required>
+              </div> 
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="form-group">
+                <label for="timespent">Time Spent</label>
+                <input type="text" class="form-control" id="timespent" placeholder="Time Spent" name="timespent" required>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <div class="form-group">
+                <label for="occasion">Occasion</label>
+                <input type="text" class="form-control" id="occasion" placeholder="Occasion" name="occasion" required>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+            <div class='col-xs-12'>
+              <a href="#inebriation" class="page-scroll btn btn-xl btn-block">Next</a>
+            </div> 
+          </div>
+
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+
+      <!-- inebriation Section -->
+      <section id="inebriation" class="bg-dark-gray">
+        <div class="container">
+          <div class="row">
+            <div class='col-xs-12'>
+              <div class="btn-group-vertical btn-block" data-role="view" >
+                <button type="button" class="inebriationClass btn btn-primary" value="0">None</button>
+                <button type="button" class="inebriationClass btn btn-primary" value="1">Good</button>
+                <button type="button" class="inebriationClass btn btn-primary" value="2">Tipsy</button>
+                <button type="button" class="inebriationClass btn btn-primary" value="3">Bad</button>
+                <button type="button" class="inebriationClass btn btn-primary" value="4">Binge</button>
+              </div>
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="row">
+           <div class="col-xs-12 text-center">
+            <div class="form-group">
+
+              <button type="submit" class="page-scroll btn btn-xl btn-block">Submit</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </form>
+
+<!-- 
+<footer>
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</footer>
+-->
+
+
+<!-- JQuery script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAKELU_VYh0K-SPFxcsy_n2r5MqZ9QNLEU&callback=initMap"></script>   
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Include Bootstrap Datepicker -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="js/Chart.js"></script>
+<script src="js/mainViz.js"></script>
+<script src="js/main.js"></script>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="js/agency.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<!-- JQuery validate -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+
+<script type="text/javascript">
+$("form").validate({
+  rules: {
+    editWeight: {
+      required: true,
+            number: true // must be a number
+          },
+          weight: {
+            required: true,
+            number: true // must be a number
+          }
+        }
+      }); 
+
+
+$(document).ready(function() {
+  $('#dateRangePicker')
+  .datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '01/01/2010',
+    endDate: '12/30/2020'
+  })
+  .on('changeDate', function(e) {
+            // Revalidate the date field
+            $('#dateRangeForm').formValidation('revalidateField', 'date');
+          });
+
+  $('#dateRangeForm').formValidation({
+    framework: 'bootstrap',
+    icon: {
+      valid: 'glyphicon glyphicon-ok',
+      invalid: 'glyphicon glyphicon-remove',
+      validating: 'glyphicon glyphicon-refresh'
+    },
+    fields: {
+      date: {
+        validators: {
+          notEmpty: {
+            message: 'The date is required'
+          },
+          date: {
+            format: 'MM/DD/YYYY',
+            min: '01/01/2010',
+            max: '12/30/2020',
+            message: 'The date is not a valid'
+          }
+        }
+      }
+    }
+  });
+});
+</script>
+
+
+</body>
+
+</html>
